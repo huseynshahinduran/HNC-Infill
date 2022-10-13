@@ -1,0 +1,14 @@
+C:\Users\20233027\source\repos\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.csproj.AssemblyReference.cache
+C:\Users\20233027\source\repos\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20233027\source\repos\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.AssemblyInfoInputs.cache
+C:\Users\20233027\source\repos\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.AssemblyInfo.cs
+C:\Users\20233027\source\repos\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.csproj.CoreCompileInputs.cache
+C:\Users\20233027\source\repos\bankATM\bankATM\bin\Debug\netcoreapp3.1\bankATM.exe
+C:\Users\20233027\source\repos\bankATM\bankATM\bin\Debug\netcoreapp3.1\bankATM.deps.json
+C:\Users\20233027\source\repos\bankATM\bankATM\bin\Debug\netcoreapp3.1\bankATM.runtimeconfig.json
+C:\Users\20233027\source\repos\bankATM\bankATM\bin\Debug\netcoreapp3.1\bankATM.runtimeconfig.dev.json
+C:\Users\20233027\source\repos\bankATM\bankATM\bin\Debug\netcoreapp3.1\bankATM.dll
+C:\Users\20233027\source\repos\bankATM\bankATM\bin\Debug\netcoreapp3.1\bankATM.pdb
+C:\Users\20233027\source\repos\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.dll
+C:\Users\20233027\source\repos\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.pdb
+C:\Users\20233027\source\repos\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.genruntimeconfig.cache
