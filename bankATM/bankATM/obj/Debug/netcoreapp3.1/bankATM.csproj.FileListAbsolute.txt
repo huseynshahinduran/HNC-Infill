@@ -12,3 +12,17 @@ C:\Users\20233027\source\repos\bankATM\bankATM\bin\Debug\netcoreapp3.1\bankATM.p
 C:\Users\20233027\source\repos\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.dll
 C:\Users\20233027\source\repos\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.pdb
 C:\Users\20233027\source\repos\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.genruntimeconfig.cache
+C:\Users\Falcon\Downloads\HNC-Infill-main\HNC-Infill-main\bankATM\bankATM\bin\Debug\netcoreapp3.1\bankATM.exe
+C:\Users\Falcon\Downloads\HNC-Infill-main\HNC-Infill-main\bankATM\bankATM\bin\Debug\netcoreapp3.1\bankATM.deps.json
+C:\Users\Falcon\Downloads\HNC-Infill-main\HNC-Infill-main\bankATM\bankATM\bin\Debug\netcoreapp3.1\bankATM.runtimeconfig.json
+C:\Users\Falcon\Downloads\HNC-Infill-main\HNC-Infill-main\bankATM\bankATM\bin\Debug\netcoreapp3.1\bankATM.runtimeconfig.dev.json
+C:\Users\Falcon\Downloads\HNC-Infill-main\HNC-Infill-main\bankATM\bankATM\bin\Debug\netcoreapp3.1\bankATM.dll
+C:\Users\Falcon\Downloads\HNC-Infill-main\HNC-Infill-main\bankATM\bankATM\bin\Debug\netcoreapp3.1\bankATM.pdb
+C:\Users\Falcon\Downloads\HNC-Infill-main\HNC-Infill-main\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.csproj.AssemblyReference.cache
+C:\Users\Falcon\Downloads\HNC-Infill-main\HNC-Infill-main\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Falcon\Downloads\HNC-Infill-main\HNC-Infill-main\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.AssemblyInfoInputs.cache
+C:\Users\Falcon\Downloads\HNC-Infill-main\HNC-Infill-main\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.AssemblyInfo.cs
+C:\Users\Falcon\Downloads\HNC-Infill-main\HNC-Infill-main\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.csproj.CoreCompileInputs.cache
+C:\Users\Falcon\Downloads\HNC-Infill-main\HNC-Infill-main\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.dll
+C:\Users\Falcon\Downloads\HNC-Infill-main\HNC-Infill-main\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.pdb
+C:\Users\Falcon\Downloads\HNC-Infill-main\HNC-Infill-main\bankATM\bankATM\obj\Debug\netcoreapp3.1\bankATM.genruntimeconfig.cache
