@@ -1,0 +1,14 @@
+C:\Users\Falcon\source\repos\gcrc\gcrc\bin\Debug\netcoreapp3.1\gcrc.exe
+C:\Users\Falcon\source\repos\gcrc\gcrc\bin\Debug\netcoreapp3.1\gcrc.deps.json
+C:\Users\Falcon\source\repos\gcrc\gcrc\bin\Debug\netcoreapp3.1\gcrc.runtimeconfig.json
+C:\Users\Falcon\source\repos\gcrc\gcrc\bin\Debug\netcoreapp3.1\gcrc.runtimeconfig.dev.json
+C:\Users\Falcon\source\repos\gcrc\gcrc\bin\Debug\netcoreapp3.1\gcrc.dll
+C:\Users\Falcon\source\repos\gcrc\gcrc\bin\Debug\netcoreapp3.1\gcrc.pdb
+C:\Users\Falcon\source\repos\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.csproj.AssemblyReference.cache
+C:\Users\Falcon\source\repos\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Falcon\source\repos\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.AssemblyInfoInputs.cache
+C:\Users\Falcon\source\repos\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.AssemblyInfo.cs
+C:\Users\Falcon\source\repos\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.csproj.CoreCompileInputs.cache
+C:\Users\Falcon\source\repos\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.dll
+C:\Users\Falcon\source\repos\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.pdb
+C:\Users\Falcon\source\repos\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.genruntimeconfig.cache
