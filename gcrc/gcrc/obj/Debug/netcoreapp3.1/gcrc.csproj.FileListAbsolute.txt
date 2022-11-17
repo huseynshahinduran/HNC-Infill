@@ -12,3 +12,17 @@ C:\Users\Falcon\source\repos\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.csproj.CoreC
 C:\Users\Falcon\source\repos\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.dll
 C:\Users\Falcon\source\repos\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.pdb
 C:\Users\Falcon\source\repos\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.genruntimeconfig.cache
+U:\HNC Infill\C#\gcrc\gcrc\bin\Debug\netcoreapp3.1\gcrc.exe
+U:\HNC Infill\C#\gcrc\gcrc\bin\Debug\netcoreapp3.1\gcrc.deps.json
+U:\HNC Infill\C#\gcrc\gcrc\bin\Debug\netcoreapp3.1\gcrc.runtimeconfig.json
+U:\HNC Infill\C#\gcrc\gcrc\bin\Debug\netcoreapp3.1\gcrc.runtimeconfig.dev.json
+U:\HNC Infill\C#\gcrc\gcrc\bin\Debug\netcoreapp3.1\gcrc.dll
+U:\HNC Infill\C#\gcrc\gcrc\bin\Debug\netcoreapp3.1\gcrc.pdb
+U:\HNC Infill\C#\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.csproj.AssemblyReference.cache
+U:\HNC Infill\C#\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.GeneratedMSBuildEditorConfig.editorconfig
+U:\HNC Infill\C#\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.AssemblyInfoInputs.cache
+U:\HNC Infill\C#\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.AssemblyInfo.cs
+U:\HNC Infill\C#\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.csproj.CoreCompileInputs.cache
+U:\HNC Infill\C#\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.dll
+U:\HNC Infill\C#\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.pdb
+U:\HNC Infill\C#\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.genruntimeconfig.cache
