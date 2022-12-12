@@ -26,17 +26,3 @@ U:\HNC Infill\C#\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.csproj.CoreCompileInputs
 U:\HNC Infill\C#\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.dll
 U:\HNC Infill\C#\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.pdb
 U:\HNC Infill\C#\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.genruntimeconfig.cache
-C:\Users\Falcon\Desktop\gcrc\gcrc\bin\Debug\netcoreapp3.1\gcrc.exe
-C:\Users\Falcon\Desktop\gcrc\gcrc\bin\Debug\netcoreapp3.1\gcrc.deps.json
-C:\Users\Falcon\Desktop\gcrc\gcrc\bin\Debug\netcoreapp3.1\gcrc.runtimeconfig.json
-C:\Users\Falcon\Desktop\gcrc\gcrc\bin\Debug\netcoreapp3.1\gcrc.runtimeconfig.dev.json
-C:\Users\Falcon\Desktop\gcrc\gcrc\bin\Debug\netcoreapp3.1\gcrc.dll
-C:\Users\Falcon\Desktop\gcrc\gcrc\bin\Debug\netcoreapp3.1\gcrc.pdb
-C:\Users\Falcon\Desktop\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.csproj.AssemblyReference.cache
-C:\Users\Falcon\Desktop\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Falcon\Desktop\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.AssemblyInfoInputs.cache
-C:\Users\Falcon\Desktop\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.AssemblyInfo.cs
-C:\Users\Falcon\Desktop\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.csproj.CoreCompileInputs.cache
-C:\Users\Falcon\Desktop\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.dll
-C:\Users\Falcon\Desktop\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.pdb
-C:\Users\Falcon\Desktop\gcrc\gcrc\obj\Debug\netcoreapp3.1\gcrc.genruntimeconfig.cache

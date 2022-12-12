@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qhO7HthyBy/5VHMEGB0B2FRh7zDd7jcTNmCvlHoEpE1/fZP42jMH7fG+gRMzYAfpG95HYiFjJz9ex0I3XQJcZA==",
+  "dgSpecHash": "j/pMdX5N8JBUxOhHvATA8a+gSWFChzv1Q/tY12OCzck9xTrSSZcOi1K8rKZLGwyVu91gikV+YO8WbJoex7gy2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Falcon\\Desktop\\gcrc\\gcrc\\gcrc.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Falcon\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.30\\microsoft.netcore.app.host.win-x64.3.1.30.nupkg.sha512"
-  ],
+  "projectFilePath": "U:\\HNC Infill\\C#\\gcrc\\gcrc\\gcrc.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

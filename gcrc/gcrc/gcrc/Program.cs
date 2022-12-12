@@ -1,70 +1,98 @@
-﻿using System;
+﻿//Huseyn Shahinduran
+
+//Glasgow Clyde Runner Club Project
+
+using System;
 
 namespace gcrc
 {
     class Program
     {
-        static int option = 0;
-        //static string search = "";
+        //Global Variables
+        static int option = 0; 
+        static string search = "";
         static string[] races = { "400m",  "800m", "1500m"};
         static string[] runner = { "Runner 1", "Runner 2", "Runner 3", "Runner 4", "Runner 5", "Runner 6", "Runner 7", "Runner 8" };
         static double[] times = new double[8];
         static double total = 0;
         static double avrg = 0;
-        const int quit_option = 4;
+        const int quit_option = 5;
+        static string username;
+        static string login;
+        static int count;
+        static string password = "clyderunners";
 
-        static void Main(string[] args)
+        static void input_details() //Gets user details
         {
-            inputTimes();
+            Console.WriteLine("Please enter username: ");
+            username = Console.ReadLine();
 
-            while (option != quit_option)
-            {
-                display_menu();
-                get_option();
-                act_on_choice();
-            }
+            Console.WriteLine("Please enter password: ");
+            login = Console.ReadLine();
         }
 
-        static void inputTimes()
+        static void print_message() //test the details and prints a message
+        {
+            const int quit_option = 4; //local variable
+
+            int choice = 0; //global variable
+
+            if (login == password)
+            {
+                while (choice != quit_option)
+                {
+                    Console.WriteLine("Display Menu here");
+
+                    choice = 4;  //for unit test only, take out when you integrate
+                }
+            }
+            else
+            {
+                count += 1;   //count password attempts
+
+                Console.WriteLine($"Invalid password and username - attempt {count}");
+            }
+
+        }
+
+        static void inputTimes() //Get times
         {
             for (int i = 0; i < 8; i++)
             {
-                if(times[i] >= 0 & times[i] <= 40)
+                Console.Write($"Enter time for {runner[i]} in {races[0]}: "); //Prompt user to enter times
+                times[i] = Convert.ToDouble(Console.ReadLine()); //Get times
+
+                while (times[i] < 0 | times[i] > 40)
                 {
-                    Console.Write($"Enter time for {runner[i]} in {races[0]}: ");
-                    times[i] = Convert.ToDouble(Console.ReadLine());
-                    while (times[i] < 0 | times[i] > 40)
-                    {
-                        Console.WriteLine("Invaild details try again");
-                        Console.Write($"Enter time for {runner[i]} in {races[0]}: ");
-                        times[i] = Convert.ToDouble(Console.ReadLine());
-                    }
+                    Console.Write($"Inalid entry. Enter time for {runner[i]} in {races[0]}: "); //Prompt user to enter times
+                    times[i] = Convert.ToDouble(Console.ReadLine()); //Get times
                 }
             }
         }
 
         /*Main Menu*/
-        public static void display_menu()
+        public static void display_menu() //Display Menu
         {
-            Console.Clear();
+            Console.Clear(); //Clear screen
 
             Console.WriteLine("\t\tGlasgow Clyde Runner");
             Console.WriteLine("\n\tMenu:");
             Console.WriteLine("\t\t1. Details");
             Console.WriteLine("\t\t2. Times");
-            Console.WriteLine("\t\t3. Search");
-            Console.WriteLine("\t\t4. EXIT");
+            Console.WriteLine("\t\t3. Occurence");
+            Console.WriteLine("\t\t4. Search");
+            Console.WriteLine("\t\t5. EXIT");
         }
 
-        public static void get_option()
+        public static void get_option() //Get user option
         {
-            Console.Write("\nEnter your option: ");
-            option = Convert.ToInt32(Console.ReadLine());
+            Console.Write("\nEnter your option: "); //Prompt user to enter option
+            option = Convert.ToInt32(Console.ReadLine()); //Get option
         }
 
         public static void act_on_choice()
         {
-            switch (option)
+            switch (option) //switch user option and print
             {
                 case 1:
                     Console.WriteLine("You have selected Details option");
@@ -79,19 +107,25 @@ namespace gcrc
                     Console.ReadKey();
                     break;
                 case 3:
-                    Console.WriteLine("You have selected Search option");
+                    Console.WriteLine("You have selected Occurence option");
                     Console.WriteLine($"{occurence()} people finished same time.");
                     Console.WriteLine("Press any key to continue...");
                     Console.ReadKey();
                     break;
                 case 4:
-                    Environment.Exit(0);
+                    Console.WriteLine("You have selected Search option");
+                    Search();
+                    Console.WriteLine("Press any key to continue...");
+                    Console.ReadKey();
+                    break;
+                case 5:
+                    Environment.Exit(0); //Exit program
                     break;
             }
         }
 
         /*Option 1*/
-        public static void details()
+        public static void details() //Print runner details
         {
             for(int i = 0; i < 8; i++)
             {
@@ -109,7 +143,7 @@ namespace gcrc
             sub_act_on_choice();
         }
 
-        public static void sub_menu()
+        public static void sub_menu() //Display sub menu
         {
             Console.WriteLine("\n\tMenu:");
             Console.WriteLine("\t\t1. Fastest");
@@ -119,21 +153,21 @@ namespace gcrc
 
         public static void sub_act_on_choice()
         {
-            switch (option)
+            switch (option) //switch sub option and print
             {
-                case 1:
+                case 1: //Print fastest time
                     Console.WriteLine($"The fastest is {fastestTime()}");
                     break;
-                case 2:
+                case 2: //Print slowest time
                     Console.WriteLine($"The slowest is {slowestTime()}");
                     break;
-                case 3:
+                case 3: //Print average time
                     avrgTimes();
                     break;
             }
         }
 
-        public static double fastestTime()
+        public static double fastestTime() //Calculate fastest time
         {
             double max = times[0];
 
@@ -148,7 +182,7 @@ namespace gcrc
             return max;
         }
 
-        public static double slowestTime()
+        public static double slowestTime() //Calculate slowest time
         {
             double min = times[0];
 
@@ -163,7 +197,7 @@ namespace gcrc
             return min;
         }
 
-        public static void avrgTimes()
+        public static void avrgTimes() //Calculate the average times
         {
             for (int i = 0; i < 8; i++)
             {
@@ -176,12 +210,12 @@ namespace gcrc
         }
 
         /*Option 3*/
-        static int occurence()
+        static int occurence() //
         {
-            int count = 0;
+            int count = 0; //Local variable
 
-            Console.WriteLine("Enter a time to check occurence: ");
-            int number = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter a time to check occurence: "); //Prompt user to enter occurence
+            int number = Convert.ToInt32(Console.ReadLine()); //Get occurence
 
             for(int i = 0; i < 7; i++)
             {
@@ -194,20 +228,45 @@ namespace gcrc
             return count;
         }
 
-        /*public static void Search()
+        public static void Search()
         {
-            Console.WriteLine("What runner are you looking for?");
-            search = Console.ReadLine();
+            Console.WriteLine("Which runner are you looking for?"); //Prompt user to enter which runner are users looking for?
+            search = Console.ReadLine(); //Get search
 
             for(int i = 0; i < 8; i++)
             {
                 if(search == runner[i])
                 {
-                    Console.WriteLine($"{runner[i]} ran {races[0]} meters in {times[i]} seconds.");
+                    Console.WriteLine($"{runner[i]} ran {races[0]} meters in {times[i]} seconds."); //Print details
                 }
             }
-        }*/
+        }
 
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome to Clyde Runners");
 
+            while (login != password && count < 3)
+            {
+                input_details();
+                print_message();//loop until password is correct
+            }//end while
+
+            if (count == 3)
+            {
+                Console.WriteLine("Locked out after 3 goes - contact Admin");
+            }
+
+            Console.Clear();
+            inputTimes();
+
+            while (option != quit_option)
+            { 
+                print_message();
+                display_menu();
+                get_option();
+                act_on_choice();
+            }
+        }
     }
 }
