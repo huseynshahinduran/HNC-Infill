@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qhO7HthyBy/5VHMEGB0B2FRh7zDd7jcTNmCvlHoEpE1/fZP42jMH7fG+gRMzYAfpG95HYiFjJz9ex0I3XQJcZA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Falcon\\Desktop\\gcrc\\gcrc\\gcrc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Falcon\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.30\\microsoft.netcore.app.host.win-x64.3.1.30.nupkg.sha512"
+  ],
+  "logs": []
+}
