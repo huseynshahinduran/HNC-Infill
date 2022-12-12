@@ -5,7 +5,7 @@ namespace gcrc
     class Program
     {
         static int option = 0;
-        static string search = "";
+        //static string search = "";
         static string[] races = { "400m",  "800m", "1500m"};
         static string[] runner = { "Runner 1", "Runner 2", "Runner 3", "Runner 4", "Runner 5", "Runner 6", "Runner 7", "Runner 8" };
         static double[] times = new double[8];
